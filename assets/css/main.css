@@ -3986,3 +3986,65 @@ input, select, textarea {
 		right: 9%;
 	}
 }
+
+/* ========================= */
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+#accordion .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#accordion .panel-heading{
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+#accordion .panel-title a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background: #888bc2;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a:after,
+#accordion .panel-title a.collapsed:after{
+    content: "\f068";
+    font-family: fontawesome;
+    width: 40px;
+    height: 40px;
+    line-height: 32px;
+    border-radius: 50%;
+    background: #888bc2;
+    text-align: center;
+    font-size: 15px;
+    color:#fff;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a.collapsed:after{
+    content: "\f067";
+}
+#accordion .panel-title a:hover:after,
+#accordion .panel-title a.collapsed:hover:after{
+    transform: rotate(360deg);
+}
+#accordion .panel-body{
+    padding: 15px 25px;
+    background: #fff;
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 25px;
+    border-top: none;
+    position: relative;
+}                
