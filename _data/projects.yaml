@@ -22,7 +22,7 @@ projects:
   description_3: "Deployed on Heroku [<a href='http://masklink.herokuapp.com/masklink/'><b>Link</b></a>] by docker images to serve as public resource for fighting Covid-19."
   img: "/assets/imgs/mask.jpg"
 
-- name: "Kayak for Mask"
+- name: "Bank Database Application"
   link: "https://github.com/OrdinaryCrazy/BankDatabaseApplication"
   description_1: "Course work implemented a small full-stack bank database system as interface and management platform."
   description_2: "Building with popular framework: front end by Vuejs, back end by Flask and DBMS by Oracle."
