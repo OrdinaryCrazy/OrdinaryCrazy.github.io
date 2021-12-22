@@ -1,0 +1,19 @@
+---
+layout: blog
+title: Blog
+---
+
+<!-- ========== BLOG ========== -->
+<div class="docs-section" id="bio">
+  <h4>Blog Posts</h4>
+  
+  <ul>
+    {% for nw in site.data.blog.blog %}
+    <!-- <b>{{ nw.date }}</b> | {{ nw.title }}: <i>{{ nw.subtitle }}</i>
+    <div class="paper"><b>{{ nw.date }}</b> <a href="{{ nw.url | prepend: site.baseurl }}" target="_blank">{{ nw.title }}</a> {{ nw.subtitle }}</div> -->    
+    <div class="row"><div class="twop columns"><b>{{ nw.date }}</b></div> <div class="ten columns"><a href="{{ nw.url | prepend: site.baseurl }}">{{ nw.title }} <i>{{ nw.subtitle }}</a></i></div></div>
+    {% endfor %}
+  </ul>
+    
+</div>
+

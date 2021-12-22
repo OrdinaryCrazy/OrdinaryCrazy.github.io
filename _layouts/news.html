@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="news-section">
+
+  {% if news.subtitle == "" or news.subtitle == nil %}
+  	<h3>{{ news.title }}</h3>
+  {% else %}
+    <div class="title-subtitle">
+      <h3>{{ news.title }}</h3>
+      <h5>{{ news.subtitle }}</h5>
+    </div>
+  {% endif %}
+
+  {{ content }}
+
+</div>

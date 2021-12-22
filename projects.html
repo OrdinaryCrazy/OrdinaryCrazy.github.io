@@ -1,0 +1,72 @@
+---
+layout: projects
+title: Projects
+---
+
+
+<div class="docs-section" id="github">
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+<!-- colors: "#eee", "#d6e685", "#8cc665", "#44a340", "#1e6823" -->
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+   rel="stylesheet" href="libs/custom/github-calendar-responsive.css"/>
+   <!-- href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"-->
+  <!-- Want to rewrite this, make a github-section -->
+
+
+
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    <!--👨‍💻-->
+    👨‍💻 give me a second...
+</div>
+
+<script>
+    GitHubCalendar(".calendar", "PaulJWright", { responsive: true });
+</script>
+
+</div>
+
+<!-- ========== PROJECTS ========== -->
+<div class="docs-section" id="projects">
+  <h4>Projects</h4>
+
+  <p>A collection of projects. <b>This page is currently under construction</b>.</p></br>
+
+    <div class="tab-pane">
+      {% for project in site.data.projects.projects %}
+        {% assign index_modulo = forloop.index0 | modulo:2 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="twelve columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <p><h5>{{ project.title }}</h5> {{ project.subtitle }}</p>
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 1 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

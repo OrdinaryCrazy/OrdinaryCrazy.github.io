@@ -1,0 +1,27 @@
+experiences:
+
+- place: "Texas A&M University"
+  time: "Aug 2020 - Dec 2022"
+  title: "Master Student (MCS)"
+  subtitle: "Advisor: <a href='http://people.tamu.edu/~sji/'>Prof. Shuiwang Ji</a> <br/> Computer Science & Engineering"
+  category: "school"
+  
+# - place: "Fujitsu Research of America"
+#   time: "Summer 2021"
+#   title: "Research Intern"
+#   subtitle: "Mentor: <a href='https://www.fujitsu.com/us/about/businesspolicy/tech/rd/research-staff/kanjiuchino.html'>Dr. Kanji Uchino</a>"
+#   category: "work"
+  
+  
+- place: "University of Science and Technology of China"
+  time: "Aug 2016 - July 2020"
+  title: "B.E. Student (Computer Science and Technology)"
+  # subtitle: "Advisor: <a href='http://oa.ee.tsinghua.edu.cn/~pengliangrui/index.htm'>Prof. Liangrui Peng</a> <br/> Electronic Engineering"
+  category: "school"
+  
+# - place: "Owlii Inc."
+#   time: "Summer 2018"
+#   title: "R&D Intern"
+#   subtitle: "Mentor: Yi Xu"
+#   category: "work"
+

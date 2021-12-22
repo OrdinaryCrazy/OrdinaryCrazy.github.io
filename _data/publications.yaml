@@ -1,0 +1,26 @@
+papers:
+
+  - title: "DIG: A Turnkey Library for Diving into Graph Deep Learning Research"
+    authors: "Meng Liu*, Youzhi Luo*, Limei Wang*, Yaochen Xie*, Hao Yuan*, Shurui Gui*, Haiyang Yu*, Zhao Xu, <b>Jingtun Zhang</b>, Yi Liu, Keqiang Yan, Haoran Liu, Cong Fu, Bora Oztekin, Xuan Zhang, and Shuiwang Ji"
+    venue: "Journal of Machine Learning Research (<a href='https://www.jmlr.org'><b>JMLR</b></a>), 2021."
+    paper_pdf: "https://jmlr.org/papers/v22/21-0343.html"
+    code: "https://github.com/divelab/DIG"
+    code_star: "https://img.shields.io/github/stars/divelab/DIG?style=social"
+    documentation: "https://diveintographs.readthedocs.io/en/latest/"
+    img: "/assets/imgs/DIG-logo.jpg"
+    selected: y
+
+  - title: "Self-Supervised Learning of Graph Neural Networks: A Unified Review"
+    authors: "Yaochen Xie, Zhao Xu, <b>Jingtun Zhang</b>, Zhengyang Wang, Shuiwang Ji"
+    venue: "<a href='https://arxiv.org/abs/2102.10757'><b>Preprint, 2021</b></a>."
+    paper_pdf: "https://arxiv.org/abs/2102.10757"
+    code: "https://github.com/divelab/DIG/tree/dig/examples/sslgraph"
+    img: "/assets/imgs/ssl.jpg"
+    selected: y
+    
+
+    
+    
+    
+
+

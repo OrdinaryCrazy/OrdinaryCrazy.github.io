@@ -1,0 +1,29 @@
+projects:
+
+- name: "Open Catalyst Challenge (Rank #3)"
+  link: "https://opencatalystproject.org/challenge.html"
+  description_1: "Building machine learning models to simulate the relaxtion process of a molecular system."
+  description_2: "Dataset preprocessing and profiling to differentiate the distribution of adsorbate and catalyst."
+  description_3: "Spliting dataset by the distribution of the system to train models on different subsplits to ensemble."
+  img: "/assets/imgs/OC20.jpg"
+  
+- name: "Dive Into Graphs"
+  link: "https://github.com/divelab/DIG"
+  github_stars: "https://img.shields.io/github/stars/divelab/DIG?style=social"
+  description_1: "Implementing a unified library for graph deep learning algorithms, data interface and baseline."
+  description_2: "Coding for data loading, preprocessing and evaluation strategies of graph self-supervised learning part."
+  description_3: "Achieved better or comparable results and computation complexity than most authors’ code."
+  img: "/assets/imgs/DIG-logo.jpg"
+
+- name: "Kayak for Mask"
+  link: "https://github.com/OrdinaryCrazy/Kayak_for_Masks"
+  description_1: "Course work for building a Kayak-like website for kid’s mask searching and filtering."
+  description_2: "Based on Django framework and able to update information by spidering online sheets and store pages."
+  description_3: "Deployed on Heroku [<a href='http://masklink.herokuapp.com/masklink/'><b>Link</b></a>] by docker images to serve as public resource for fighting Covid-19."
+  img: "/assets/imgs/mask.jpg"
+
+- name: "Kayak for Mask"
+  link: "https://github.com/OrdinaryCrazy/BankDatabaseApplication"
+  description_1: "Course work implemented a small full-stack bank database system as interface and management platform."
+  description_2: "Building with popular framework: front end by Vuejs, back end by Flask and DBMS by Oracle."
+  img: "/assets/imgs/bank.jpg"
